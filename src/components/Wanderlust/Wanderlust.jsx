@@ -1,6 +1,6 @@
 import React from 'react'
 import videoBanner from '../../assets/images/video-banner.png'
-import './WanderLust.css'
+import './Wanderlust.css'
 const Wanderlust = () => {
   return (
     <div className='Wanderlust' style={{ backgroundImage: `url(${videoBanner})` }}>
