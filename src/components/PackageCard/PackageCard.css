@@ -1,0 +1,46 @@
+.package{
+    max-width: 386px;
+    height: 438px;
+    padding: 20px;
+    background-color: #F5F3F3;
+    border-radius: 5px;
+}
+.package .packageContain{
+    display: flex;
+    flex-direction: column;
+}
+.package .packageContain img{
+    width: 100%;
+}
+.package .packageContain .packageData{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DF6951;
+    height: 39px;
+    padding: 10px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #F5F3F3;
+    font-weight: 500;
+    font-size: 12.974px;
+}
+.package .packageContain h2{
+    color: #181E4B;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.package .packageContain p{
+    color: #181E4B;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 318px;
+    margin: 10px 0;
+}
+.package .packageContain .packageInfo{
+    display: flex;
+    gap: 40px;
+    color: #262626;
+    font-weight: 500;
+    font-size: 16px;
+}

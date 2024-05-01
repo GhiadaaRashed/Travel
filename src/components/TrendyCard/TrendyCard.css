@@ -1,0 +1,59 @@
+.contain{
+    max-width: 378px;
+    background-color: #F9F9F9;
+}
+.trendy{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    height: 260px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.trendy img{
+    position: absolute;
+    bottom: -10px;
+    left: 15%;
+    transform: translate(-50%, 50%);
+}
+.contain .info{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.contain .info .one,.contain .info .tow{
+    display: flex;
+    gap: 15px;
+    padding: 8px 0;
+    color: #7D7D7D;
+    margin:20px 0 0 20px ;
+}
+.contain .country{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.contain .country h2{
+    color: #2F2F2F;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.contain .p{
+    padding:20px;
+    max-width: 373.425px;
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 400;
+}
+.contain button{
+    border-radius: 4px;
+    background: #DF6951;
+    padding: 18px 25px;
+    margin: 0 0 20px 20px;
+    border: none;
+    color:#FFF;
+    font-weight: 600;
+    font-size: 12px;
+
+}

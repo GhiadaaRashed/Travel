@@ -1,0 +1,91 @@
+.NavBar{
+    position:fixed;
+    width:90%;
+    height: 10%;
+    left: 5%;
+    top:5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.NavBarBg{
+    background: rgba(38, 38, 38);
+}
+
+.NavBar .style{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.NavBar .style ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding:0 10px;
+}
+.NavBar ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.NavBar ul li :hover{
+    border-bottom: 3px solid #DF6951;
+    cursor: pointer;
+}
+.NavBar button{
+    padding:10px 30px ;
+    border: none;
+    border-radius: 5px;
+    background-color: #DF6951;
+    color: white;
+}
+.NavBar svg{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1050px) {
+    .NavBar svg{
+        display: block;
+    }
+    #slide{
+        flex-direction: column;
+        position: fixed;
+        top: 35px;
+        background-color: white;
+        width:60%;
+        height: 100%;
+        right: -800px;
+        transition: all 0.5s linear;
+        z-index: 5;
+        padding: 25px;
+
+    }
+    #slide .style{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        padding: 45px;
+        width:100% ;
+    }
+    #slide ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+    #slide ul li a {
+        color: #000;
+        font-weight: 400;
+    }
+    #slide.active{
+        right: 0;
+    }
+}

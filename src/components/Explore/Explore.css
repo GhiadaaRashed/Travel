@@ -1,0 +1,14 @@
+.style{
+    display: flex;
+}
+.style .card{
+    width: 100%;
+}
+@media screen and (max-width:992px) {
+    .style {
+        flex-wrap: wrap;
+    }
+    .NavBar svg{
+        display: block;
+    }
+}

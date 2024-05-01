@@ -1,0 +1,22 @@
+.trendy-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.trendy-container{
+    display: flex;
+    gap: 70px;
+    margin: 70px 0;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:992px) {
+    .trendy-parent{
+        justify-content: center;
+        align-items: center;
+    }
+}

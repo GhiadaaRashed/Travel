@@ -1,0 +1,14 @@
+.texts h1{
+    max-width:800px;
+    text-align: center;
+    color: #1E1D4C;
+    font-size: 50px;
+    font-weight: 700;
+}
+.texts p{
+    max-width:800px;
+    text-align: center;
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,29 @@
+.Wanderlust{
+    width: 100vw;
+    height: 432px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+}
+.Wanderlust h1{
+    color: #FFF;
+    font-family: Yesteryear;
+    font-size: 150px;
+    font-weight: 400;
+    max-width: 650px;
+}
+.Wanderlust svg{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,50%);
+}
+@media screen and (max-width:992px) {
+    .Wanderlust h1{
+        max-width: 500;
+        font-size: 75px;
+    }
+    
+}

@@ -1,0 +1,74 @@
+.AboutTrend{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.AboutTrend .AboutTrendData .AboutTrendTitle{
+    color: #DF6951;
+    font-weight: 700;
+    font-size: 18px;
+}
+.AboutTrend .AboutTrendData h1{
+    color: #181E4B;
+    font-size: 39px;
+    max-width: 613px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 25px;
+}
+.AboutTrend .AboutTrendData .AboutTrendDescribe{
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 550.645px;
+    margin-bottom: 25px;
+}
+.AboutTrend .AboutTrendInfo{
+    display: flex;
+    gap: 30px;
+}
+.AboutTrend .AboutTrendInfo div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.AboutTrend .AboutTrendInfo div span{
+    color: #7D7D7D;
+    font-size: 30px;
+    font-weight: 400;
+}
+.AboutTrend .AboutTrendInfo div p{
+    color: #181E4B;
+    font-size: 18px;
+    font-weight: 700;
+}
+.AboutTrend  img{
+    max-width: 500px;
+
+}
+@media screen and (max-width:1100px) {
+    .AboutTrend{
+        gap: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .AboutTrend .AboutTrendData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .AboutTrend img{
+        max-width: 300px;
+    }
+}
